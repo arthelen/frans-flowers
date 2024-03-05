@@ -1,0 +1,106 @@
+body {
+/* overall I tried to use a color palette that had a high contrast
+  and further tested the readability using a few sites so it would not
+  be too difficult to read - AARP */
+  color: #3b0404;
+  background-color: #fffafa ;
+  /* changed main font family sans-serif since it is easier to read - AARP */
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  /* made the font size bigger to be easier to read - AARP */
+  font-size: 33px;
+  text-align: center;
+}
+
+header {
+  color: #607b60;
+  /* changed header font family to make it easier to read
+  but still have it maintain that cursive look - AARP */
+  font-family: 'Square Peg', cursive;
+  /* made the font size bigger to be easier to read - AARP */
+  font-size: 47px;
+}
+
+h2 {
+  font-family: 'Square Peg', cursive;
+  letter-spacing: 2px;
+  /* made the font size bigger to be easier to read - AARP */
+  font-size: 45px;
+  color: #607b60;
+}
+
+h3 {
+  font-family: 'Square Peg', cursive;
+  letter-spacing: 2px;
+  color: #b35447;
+  text-decoration: underline;
+}
+
+h4 {
+  color: #3b0404;
+  font-style: italic;
+}
+
+h5 {
+  text-decoration: line-through;
+  color: #deb3ad;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: solid #607b60;
+  color: #deb3ad;
+  text-align: center;
+  border-radius: 20%;
+  border-height: 30px;
+}
+
+hr:after {
+  content: "✿";
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 1.5em;
+  padding: 0 0.8em;
+  background: #fffafa;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#owner {
+  border-radius: 10%
+}
+
+#donation {
+  color: #b35447;
+  /* added the bold attribute to make it more noticeable */
+  font-weight: bold;
+}
+
+.pricing-table {
+  line-height: 100%;
+}
+
+address {
+  color: #deb3ad;
+  /* added the bold attribute to make it more noticeable */
+  font-weight: bold;
+}
+
+a:link {
+  color: #b35447;
+  /* added the bold attribute to make it more noticeable */
+  font-weight: bold;
+}
+
+a:visited {
+  color: #b35447;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #3b0404;
+}
